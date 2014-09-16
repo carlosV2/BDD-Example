@@ -1,0 +1,28 @@
+{
+    "name": "carlosV2/BDD Test",
+    "license": "proprietary",
+    "type": "project",
+    "description": "",
+    "autoload": {
+        "psr-0": { "": ["src/", "features/"], "SymfonyStandard": "app/", "spec": [""]  }
+    },
+    "require": {
+        "php": ">=5.5",
+        "behat/behat": "~3.0.8",
+        "phpspec/phpspec": "~2.1.0@dev"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "symfony-app-dir": "app",
+        "symfony-web-dir": "web",
+        "symfony-assets-install": "symlink",
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml"
+        },
+        "branch-alias": {
+            "dev-master": "2.4-dev"
+        }
+    }
+}
