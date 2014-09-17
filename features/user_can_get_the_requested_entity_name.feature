@@ -14,23 +14,3 @@ Feature: User can get the requested entity name
     Given the entity 456 does not exists
     When I request the name for the entity 456
     Then I should get an exception
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
