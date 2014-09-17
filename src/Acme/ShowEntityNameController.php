@@ -33,27 +33,3 @@ class ShowEntityNameController
         throw new \Exception();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
